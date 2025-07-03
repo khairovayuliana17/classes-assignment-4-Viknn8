@@ -14,8 +14,8 @@ Diary::~Diary() {
     }
 }
 
-bool Diary::unlock(const std::string& inputPassword) {
-    if (inputPassword == password) {
+bool Diary::unlock(const std::string& inputpassword) {
+    if (inputpassword == password) {
         isOpen = true;
         return true;
     } else {
